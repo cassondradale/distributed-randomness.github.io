@@ -130,7 +130,7 @@ read_other_posts = "read other posts"
 enable_katex = true
 
 # Options for disqus
-disqus = { enabled=false, short_name="" }
+disqus = { enabled=true, short_name="distributedrandomness" }
 
 # generate Table of Contents for all articles
 # Table of Contents can be generated for individual articles
