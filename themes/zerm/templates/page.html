@@ -1,5 +1,6 @@
 {% import "macros/head.html" as head -%}
 {% import "macros/toc.html" as toc -%}
+{% import "macros/currents.html" as currents -%}
 {% extends "base.html" -%}
 
 {%- block math -%}
@@ -34,7 +35,8 @@
 
         {{ page.content | safe }}
 
-        {{ comments::comments() }}
+    {#{{ comments::comments() }}#} 
+        {{ currents::currents() }}
         {# TODO: Decide if any sort of commenting functionality is desired? #}
         {#%- include "snippets/comments.html"  -%#}
     </article>

@@ -132,6 +132,9 @@ enable_katex = true
 # Options for disqus
 disqus = { enabled=true, short_name="distributedrandomness" }
 
+# Options for utterences
+utter = { enabled=true }
+
 # generate Table of Contents for all articles
 # Table of Contents can be generated for individual articles
 # by adding `ToC = true` in [extra] section in frontmatter
