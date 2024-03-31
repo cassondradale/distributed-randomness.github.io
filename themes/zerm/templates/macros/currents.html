@@ -1,0 +1,17 @@
+{% macro currents() %}
+    {% if config.extra.utter.enabled is defined and config.extra.utter.enabled == true %}
+        {{ currents::utter() }}
+    {% endif %}
+{% endmacro currents %}
+
+
+{% macro utter() %}
+<script src="https://utteranc.es/client.js"
+        repo="distributed-randomness/distributed-randomness.github.io"
+        issue-term="pathname"
+        theme="icy-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+
+{% endmacro utter %}
