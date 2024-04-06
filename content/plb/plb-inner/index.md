@@ -31,8 +31,7 @@ hosts have the most number of shards (skew in shard assignment) or few of the
 most requested shards. Therefore, shard placement is the key to driving
 uniform utilization. The CPU was an example, the contended resource might be
 memory, IO, or other application-specific metrics. Usually, we do not shoot
-for perfect equality, but rather an optimum band. This is usually application-dependent but something like 50-70% utilization is good. It has enough headroom
-to allow minor peaks while more hosts are added. The other end of the spectrum
+for perfect equality, but rather an optimum band. This is usually application-dependent but something like 50-70% utilization is good. It has enough headroom to allow minor peaks while more hosts are added. The other end of the spectrum
 is say, all 100 of my servers are running at 10% CPU. This is an opportunity to
 reduce the host count without impacting the service quality. This will decrease
 the operating cost of the service, which means more profit.

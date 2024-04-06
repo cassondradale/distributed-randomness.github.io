@@ -20,7 +20,7 @@ _karma_. It maintains order in the world of balls and bins - making sure there a
 too many and all balls in a bin has sufficient room to breathe. It uses its _power wand_ to maintain
 the order. There are two types of power actions:
 1. `map`: under which take a ball or a bin and transforms them into one or more of the same
-   kind(ball maps to a list of one or more balls and so does the bins).
+   kind (ball maps to a list of one or more balls and so does the bins).
 1. `place`: take a list of balls and bins and arrange balls into the bins.
 
 And there is variety in this world. There are different kinds (or shapes) of balls, bins. Similarly,

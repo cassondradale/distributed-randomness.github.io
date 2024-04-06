@@ -19,7 +19,7 @@ service, more or less, right from the beginning.
 
 My next experience has been with another analytical database, that specializes in search. Most
 of the customers use it for the document search or log analytics. A couple of years in
-this team, I proposes a complete rewrite of the system which would make it truly could
+this team, I proposed a complete rewrite of the system which would make it truly could
 native and serverless. The proposal got accepted by the management and I got the funding
 to lead the design and implementation of the same. I architected the full data plane and
 implemented parts of it.
@@ -27,9 +27,7 @@ implemented parts of it.
 During all these years, I have learned to build practical systems on the job and have
 taught myself to reason about systems more formally in my own time. In this blog I would like to share
 some of my thoughts on ***distributed*** systems and other ***randomness***. Along the
-way, I will also discuss papers and books. But as with any
-blog post, *the opinions are my own* and therefore, take them with a grain of salt. Use the
-ideas that you find helpful in your own projects or work, and leave out the rest.
+way, I will also discuss papers and books. But as with any blog post, *the opinions are my own* and therefore, take them with a grain of salt. Use the ideas that you find helpful in your own projects or work, and leave out the rest.
 
 I welcome constructive criticism and therefore, do let me know what you think.
 
